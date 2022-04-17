@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name": "Personal trainer",
+        "price": 100,
+        "img":"images/gym1.jpg"
+    },
+    {
+        "id":2,
+        "name": "Body Building",
+        "price": 150,
+        "img":"images/gym2.jpg"
+    },
+    {
+        "id":3,
+        "name": "Gymnastic Rings",
+        "price": 120,
+        "img":"images/gym8.jpg"
+    },
+    {
+        "id":4,
+        "name": "Crossfit",
+        "price": 160,
+        "img":"images/gym9.jpg"
+    },
+    {
+        "id":5,
+        "name": "Fitness",
+        "price": 200,
+        "img":"images/gym4.jpg"
+    }
+]
