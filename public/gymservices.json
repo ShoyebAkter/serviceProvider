@@ -1,32 +1,24 @@
 [
-    {
-        "id":1,
-        "name": "Personal trainer",
-        "price": 100,
-        "img":"images/gym1.jpg"
-    },
+    
     {
         "id":2,
         "name": "Body Building",
         "price": 150,
-        "img":"images/gym2.jpg"
-    },
-    {
-        "id":3,
-        "name": "Gymnastic Rings",
-        "price": 120,
-        "img":"images/gym8.jpg"
+        "img":"images/gym2.jpg",
+        "description":"Bodybuilding is the use of progressive resistance exercise to control and develop one's muscles (muscle building) by muscle hypertrophy for aesthetic"
     },
     {
         "id":4,
         "name": "Crossfit",
         "price": 160,
-        "img":"images/gym9.jpg"
+        "img":"images/gym9.jpg",
+        "description":"A form of high intensity interval training, CrossFit is a strength and conditioning workout that is made up of functional movement performed at a high intensity level."
     },
     {
         "id":5,
         "name": "Fitness",
         "price": 200,
-        "img":"images/gym4.jpg"
+        "img":"images/gym4.jpg",
+        "description":"Fitness means the condition of being physically and mentally fit with good health. It is the ability to carry out daily tasks with vigor and alertness, without undue fatigue."
     }
 ]

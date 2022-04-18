@@ -3,6 +3,11 @@
     grid-template-columns: repeat(3,1fr);
     grid-gap: 5px;
 }
+.title{
+    color: aliceblue;
+    text-align: center;
+    margin: 10px 0;
+}
 
 @media only screen and (max-width:576px) {
     .services-container{

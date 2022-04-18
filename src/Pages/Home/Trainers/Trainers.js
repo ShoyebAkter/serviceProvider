@@ -11,9 +11,9 @@ const trainers=[
 ]
 const Trainers = () => {
     return (
-        <div className='container'>
-            <h4 className='text-warning'>Train the experts</h4>
-            <h1 className='text-light my-0'>Meet the trainers</h1>
+        <div id='feedback' className='container'>
+            <h4 className='text-warning'>Feedback of the trainer</h4>
+            <h1 className='text-light my-0'>Who took training from the trainer</h1>
             <div className='row'>
                 {
                     trainers.map(trainer=> <Trainer
