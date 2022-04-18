@@ -13,6 +13,7 @@ import Trainers from './Pages/Home/Trainers/Trainers';
 import SignUp from './Pages/Login/SignUp/SignUp';
 import Checkout from './Pages/Checkout/Checkout/Checkout';
 import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
+import Blogs from './Pages/Blogs/Blogs';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <Route path='/home' element={<Home></Home>}></Route>
         <Route path='/services'element={<Services></Services>}></Route>
         <Route path='/feedback'element={<Trainers></Trainers>}></Route>
+        <Route path='/blogs' element={<Blogs></Blogs>}></Route>
         <Route path='/service/:serviceID' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path='/about' element={<About></About>}></Route>
         <Route path='/checkout' element={
