@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Footer = () => {
-    // const date=newDate()
+    // const date=new Date();
     return (
         <footer>
             <p><small>copyright @</small></p>

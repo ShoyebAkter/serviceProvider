@@ -13,7 +13,7 @@ const Trainers = () => {
     return (
         <div id='feedback' className='container'>
             <h4 className='text-warning'>Feedback of the trainer</h4>
-            <h1 className='text-light my-0'>Who took training from the trainer</h1>
+            <h1 className='text-dark my-0'>Who took training from the trainer</h1>
             <div className='row'>
                 {
                     trainers.map(trainer=> <Trainer
