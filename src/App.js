@@ -11,6 +11,8 @@ import Services from './Pages/Home/Services/Services';
 import Feedback from 'react-bootstrap/esm/Feedback';
 import Trainers from './Pages/Home/Trainers/Trainers';
 import SignUp from './Pages/Login/SignUp/SignUp';
+import Checkout from './Pages/Checkout/Checkout/Checkout';
+import RequireAuth from './Pages/Login/RequireAuth/RequireAuth';
 
 function App() {
   return (
@@ -23,6 +25,11 @@ function App() {
         <Route path='/feedback'element={<Trainers></Trainers>}></Route>
         <Route path='/service/:serviceID' element={<ServiceDetail></ServiceDetail>}></Route>
         <Route path='/about' element={<About></About>}></Route>
+        <Route path='/checkout' element={
+          <RequireAuth>
+            <Checkout></Checkout>
+          </RequireAuth>
+        }></Route>
         <Route path='/signup' element={<SignUp></SignUp>}></Route>
         <Route path='/login' element={<Login></Login>}></Route>
         <Route path='*' element={<Notfound></Notfound>}></Route>

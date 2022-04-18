@@ -1,5 +1,5 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Service.css';
 
 const Service = ({service}) => {
@@ -15,7 +15,9 @@ const Service = ({service}) => {
             <h2>Service: {name}</h2>
             <p>{description}</p>
             <h4>Price:$ {price}</h4>
+            <Link to='/checkout'>
             <button onClick={()=>navigateHandle(id)} className='button'>Book {name}</button>
+            </Link>
         </div>
     );
 };
